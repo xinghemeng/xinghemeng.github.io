@@ -4,24 +4,11 @@
   
     
     <entry>
-      <title>post</title>
-      <link href="/2024/05/08/markdownForWork/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-2/"/>
-      <url>/2024/05/08/markdownForWork/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-2/</url>
+      <title>Hello World</title>
+      <link href="/2024/04/08/hello-world/"/>
+      <url>/2024/04/08/hello-world/</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>post</title>
-      <link href="/2024/04/08/markdownForWork/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-1/"/>
-      <url>/2024/04/08/markdownForWork/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-1/</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
@@ -49,38 +36,6 @@
             <tag> 数组 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>计算机网络</title>
-      <link href="/2024/04/07/markdownForWork/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-      <url>/2024/04/07/markdownForWork/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</url>
-      
-        <content type="html"><![CDATA[<h2 id="TCP可靠传输"><a href="#TCP可靠传输" class="headerlink" title="TCP可靠传输"></a>TCP可靠传输</h2><p>网址到网页</p><p>浏览器解析URL生成HTTP消息，根据域名查询对应的IP地址（DNS），</p><p>TCP传输HTTP报文（窗口，流量控制，拥塞控制）（传输数据前先建立连接，三次握手，<strong>三次握手目的是保证双方都有发送和接收的能力</strong>）</p><p>IP 封装 TCP 报文进行传输（客户端有多个网卡，即多个 IP 地址时，IP发往哪？这时就需要路由表，路由选择协议）远程定位</p><p>MAC封装（ARP：寻找目的MAC地址，建立IP地址到MAC地址的映射）</p><p>网卡：将<strong>数字信息转换为电信号</strong>，信息才能在网线上传输（物理层）</p><img src="计算机网络.assets/image-20240320222251061.png" alt="image-20240320222251061" style="zoom:50%;" /><table><thead><tr><th><img src="计算机网络.assets/image-20240320214723604.png" alt="image-20240320214723604" style="zoom: 33%;" /></th><th><img src="计算机网络.assets/image-20240320222120005.png" alt="image-20240320222120005" style="zoom: 33%;" /></th></tr></thead></table><h1 id="HTTP"><a href="#HTTP" class="headerlink" title="HTTP"></a>HTTP</h1><h2 id="HTTP和HTTPS的区别"><a href="#HTTP和HTTPS的区别" class="headerlink" title="HTTP和HTTPS的区别"></a>HTTP和HTTPS的区别</h2><p><strong>HTTP是无状态的，服务器不会去记录HTTP 的状态信息，所以每次请求都要带上Cookie进行验证，又由于HTTP是明文传输，存在安全性问题。</strong></p><p><strong>HTTPS由于引入了 SSL&#x2F;TLS 安全协议，使得报文能够进行加密传输，解决了HTTP的安全性问题，但同时在 HTTP 三次握手四次挥手的基础上多了一步 SSL&#x2F;TLS 握手的过程，连接上没有 HTTP 那么快</strong></p><ul><li>HTTP 是超文本传输协议，信息是明文传输，存在安全风险的问题。HTTPS 则解决 HTTP 不安全的缺陷，在 TCP 和 HTTP 网络层之间加入了 SSL&#x2F;TLS 安全协议，使得报文能够加密传输。</li><li>HTTP 连接建立相对简单， TCP 三次握手之后便可进行 HTTP 的报文传输。而 HTTPS 在 TCP 三次握手之后，还需进行 SSL&#x2F;TLS 的握手过程，才可进入加密报文传输。</li><li>HTTPS 协议需要向 CA（证书权威机构）申请数字证书，来保证服务器的身份是可信的。</li></ul><h2 id="SSL-TLS-协议基本流程："><a href="#SSL-TLS-协议基本流程：" class="headerlink" title="SSL&#x2F;TLS 协议基本流程："></a>SSL&#x2F;TLS 协议基本流程：</h2><ul><li>客户端向服务器索要并验证服务器的公钥。</li><li>双方协商生产「会话秘钥」。</li><li>双方采用「会话秘钥」进行加密通信。</li></ul><h3 id="WebSocket"><a href="#WebSocket" class="headerlink" title="WebSocket"></a>WebSocket</h3><p>过程？</p><p>有了 HTTP 为什么还要 WebSocket?</p><h1 id="TCP"><a href="#TCP" class="headerlink" title="TCP"></a><strong>TCP</strong></h1><h2 id="为什么需要-TCP-？"><a href="#为什么需要-TCP-？" class="headerlink" title="为什么需要 TCP ？"></a>为什么需要 TCP ？</h2><p>IP 协议不提供可靠的数据交付，不保证网络传输过程中数据的完整性。</p><p>TCP 是<strong>面向连接的、可靠的、基于字节流</strong>的传输层通信协议，它能够保证接收的网络包是有序，无损坏的。</p><h2 id="TCP-怎么保证顺序？"><a href="#TCP-怎么保证顺序？" class="headerlink" title="TCP 怎么保证顺序？"></a>TCP 怎么保证顺序？</h2><p>当「前一个」TCP 报文没有收到的时候，即使它先收到了后面的 TCP 报文，那么也不能扔给应用层去处理，同时对「重复」的 TCP 报文会自动丢弃。</p><h2 id="三次握手，四次挥手⭐"><a href="#三次握手，四次挥手⭐" class="headerlink" title="三次握手，四次挥手⭐"></a>三次握手，四次挥手⭐</h2><h3 id="握手过程？"><a href="#握手过程？" class="headerlink" title="握手过程？"></a>握手过程？</h3><img src="计算机网络.assets/image-20240324150205785.png" alt="image-20240324150205785" style="zoom:33%;" /><h3 id="为什么要三次握手？✨"><a href="#为什么要三次握手？✨" class="headerlink" title="为什么要三次握手？✨"></a>为什么要三次握手？✨</h3><img src="计算机网络.assets/image-20240324145836095.png" alt="image-20240324145836095" style="zoom:33%;" /><p><strong>TCP 使用三次握手建立连接的最主要原因是防止「历史连接」初始化了连接</strong>，当客户端发送了一个 SYN 请求同步位后，如果此时客户端网络遭到阻塞，等到客户端网络恢复后，新发起了一个连接请求，但是旧的 SYN 标志位会比新的标志位先到服务端，服务端返回 ACK 确认报文，客户端发现这个报文不是它期望的确认报文就会发送 RST 报文释放连接，等到新的 SYN 到达服务端后就能建立新的连接，如果只有两次握手的话，服务端就不能接收到客户端发出的 RST 报文，后续就会正常发送数据，这样的话就造成了资源的浪费。</p><h3 id="握手丢失？"><a href="#握手丢失？" class="headerlink" title="握手丢失？"></a>握手丢失？</h3><p><strong>第一次</strong></p><p>当客户端发出 SYN 请求报文后，如果一直收不到服务端发来的 ACK 确认报文，就会出发超时重传机制，重传 SYN 报文。</p><p><strong>第二次</strong></p><p>第二次握手，服务端返回的报文包括确认报文 ACK 和 服务端发起 TCP 连接的 SYN 请求报文，由于接收不到 ACK ，客户端会认为 发送的 SYN 丢失，触发超时重传，重传 SYN 报文；服务端由于收不到客户端的 ACK 报文，就会重传 SYN-ACK 报文。</p><h3 id="挥手过程"><a href="#挥手过程" class="headerlink" title="挥手过程"></a>挥手过程</h3><img src="计算机网络.assets/image-20240324161953178.png" alt="image-20240324161953178" style="zoom:33%;" /><ul><li>客户端打算关闭连接，会发送一个连接释放的报文段，将首部的终止控制位 FIN 置为 1 ，进入终止等待状态</li><li>服务端收到报文后会发出 ACK 确认，同时进入关闭等待状态 CLOSED_WAIT，这时从客户端到服务端这个方向的连接就释放了，TCP 连接处于一个半关闭的状态，此时客户端不会进行数据的发送，但如果服务端发送数据，客户端仍然要接收。</li><li>客户端收到服务端的 ACK 报文后就进入了终止等待 2 （FIN_WAIT 2）状态，等待服务端的连接释放报文。</li><li>等到服务端发送释放报文后，服务端就进入了最后确认（LAST_ACK ）状态</li><li>客户端收到报文后就进入了时间等待状态，客户端收到应答报文后连接关闭，等到经过 2MSL （最长报文段寿命），客户端的连接关闭。</li></ul><h3 id="为什么需要四次挥手？✨"><a href="#为什么需要四次挥手？✨" class="headerlink" title="为什么需要四次挥手？✨"></a>为什么需要四次挥手？✨</h3><p>关闭连接时，客户端发送连接释放请求仅仅表示客户端不需要再发送数据了，但是它还能接收数据，服务端返回确认报文后可能还有一部分数据需要处理和发送，等数据处理完才发送连接释放报文同意关闭连接。因为服务端的 ACK 和 IFN 通常需要分开发送，所以需要四次挥手。</p><ul><li>什么情况四次挥手变成三次挥手？</li></ul><p>当服务端不需要处理数据的时候，可以将 ACK 和 FIN 同时返回给客户端，关闭连接。</p><h2 id="重传机制"><a href="#重传机制" class="headerlink" title="重传机制"></a>重传机制</h2><p>TCP 针对数据包丢失的情况，会用<strong>重传机制</strong>解决。</p><p><strong>超时重传</strong></p><p>​超时重传时间 RTO 的值应该略大于报文往返 RTT 的值</p><p><strong>快速重传</strong></p><p>不以时间为驱动，而是以数据驱动重传。</p><img src="计算机网络.assets/image-20240324210005864.png" alt="image-20240324210005864" style="zoom:33%;" /><p>如果 seq2 和seq3 都丢失，存在重传seq2 还是 seq2 后所有报文的问题，引入SACK</p><p><strong>SACK</strong></p><p>选择确认，将已收到的消息发送给发送方，发送方就能知道哪些数据没收到，三次同样的 ACK 就可以触发重传。</p><img src="计算机网络.assets/image-20240324210319847.png" alt="image-20240324210319847" style="zoom: 50%;" /><p><strong>D-SACK</strong></p><p>告诉发送方哪些数据重复发送了</p><img src="计算机网络.assets/image-20240324210745374.png" alt="image-20240324210745374" style="zoom:50%;" /><h2 id="滑动窗口"><a href="#滑动窗口" class="headerlink" title="滑动窗口"></a>滑动窗口</h2><p>窗口相当于一个缓存空间，发送的数据只要不超过窗口大小，发送方无需等待确认应答可以继续发送消息。</p><p>发送端可以根据接收端窗口大小决定发送多少消息，这样不会导致消息过多而超出接收端能处理的上限。</p><h2 id="流量控制"><a href="#流量控制" class="headerlink" title="流量控制"></a>流量控制</h2><p>TCP 提供一种机制可以让「发送方」根据「接收方」的实际接收能力控制发送的数据量，这就是所谓的流量控制</p><h2 id="拥塞控制"><a href="#拥塞控制" class="headerlink" title="拥塞控制"></a>拥塞控制</h2><h1 id="IP"><a href="#IP" class="headerlink" title="IP"></a><strong>IP</strong></h1><h2 id="1-DNS"><a href="#1-DNS" class="headerlink" title="1. DNS"></a>1. DNS</h2><h3 id="DNS-解析过程"><a href="#DNS-解析过程" class="headerlink" title="DNS 解析过程"></a>DNS 解析过程</h3><h3 id="DNS-劫持"><a href="#DNS-劫持" class="headerlink" title="DNS 劫持"></a>DNS 劫持</h3><h2 id="2-ICMP"><a href="#2-ICMP" class="headerlink" title="2. ICMP"></a>2. ICMP</h2><h2 id="3-IGMP"><a href="#3-IGMP" class="headerlink" title="3. IGMP"></a>3. IGMP</h2><h2 id="4-ARP"><a href="#4-ARP" class="headerlink" title="4. ARP"></a>4. ARP</h2><p>ARP 协议的工作过程</p><h2 id="5-DHCP"><a href="#5-DHCP" class="headerlink" title="5. DHCP"></a>5. DHCP</h2><h2 id="断网了还能-Ping-通-127-0-0-1-吗？"><a href="#断网了还能-Ping-通-127-0-0-1-吗？" class="headerlink" title="断网了还能 Ping 通 127.0.0.1 吗？"></a>断网了还能 Ping 通 127.0.0.1 吗？</h2><h2 id="127-0-0-1-和-localhost-有什么区别？"><a href="#127-0-0-1-和-localhost-有什么区别？" class="headerlink" title="127.0.0.1 和 localhost 有什么区别？"></a>127.0.0.1 和 localhost 有什么区别？</h2>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 计算机网络 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2024/04/06/hello-world/"/>
-      <url>/2024/04/06/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
